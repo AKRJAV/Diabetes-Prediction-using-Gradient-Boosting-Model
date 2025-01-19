@@ -27,6 +27,10 @@ The dataset contains information about the health conditions of patients, includ
 - **Blood Glucose Level**: The blood glucose level of the patient.
 - **Diabetes**: The target variable, indicating whether the patient is diabetic (1 for Yes, 0 for No).
 
+## Sample Dataset
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/93cd6872-1095-48ca-9533-393d956afb41" />
+
+
 ## Data Preprocessing and Transformation
 
 1. **Handling Missing Values**:  
@@ -110,12 +114,3 @@ A **web application** was built to allow users to input patient data and predict
 
 ## Conclusion
 The project demonstrated the use of machine learning algorithms for diabetes prediction, with **Gradient Boosting** being the best model due to its superior **AUC-ROC** and **Recall**. The final model was integrated into a simple web application to make the prediction process accessible and user-friendly.
-
-## Dependencies
-To run the project, the following libraries are required:
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `imbalanced-learn`
-- `flask` (for the web application)
-- `matplotlib` (for visualizations)
