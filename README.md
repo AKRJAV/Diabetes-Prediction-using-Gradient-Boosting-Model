@@ -17,11 +17,11 @@ The goal of this project is to apply machine learning techniques to predict whet
 
 ## Dataset Overview
 The dataset contains information about the health conditions of patients, including:
-- **Gender**: The gender of the patient (Male/Female).
+- **Gender**: The gender of the patient (Categorical) with values : Male/Female/Other.
 - **Age**: The age of the patient.
 - **Hypertension**: Whether the patient has hypertension (1 for Yes, 0 for No).
 - **Heart Disease**: Whether the patient has heart disease (1 for Yes, 0 for No).
-- **Smoking History**: The patient's smoking history.
+- **Smoking History**: The patient's smoking history (Categorical) with values : current/ever/former/never/No Info/not current.
 - **BMI**: The Body Mass Index of the patient.
 - **HbA1c Level**: The Hemoglobin A1c level of the patient.
 - **Blood Glucose Level**: The blood glucose level of the patient.
