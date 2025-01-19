@@ -105,6 +105,9 @@ A **web application** was built to allow users to input patient data and predict
 2. The model processes the input data, performs necessary preprocessing, and predicts whether the patient is diabetic.
 3. The result is displayed on the screen along with the predicted diabetes status (Yes/No).
 
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/701b17dd-9e51-4c16-b11b-757d19a7264b" />
+
+
 ## Conclusion
 The project demonstrated the use of machine learning algorithms for diabetes prediction, with **Gradient Boosting** being the best model due to its superior **AUC-ROC** and **Recall**. The final model was integrated into a simple web application to make the prediction process accessible and user-friendly.
 
